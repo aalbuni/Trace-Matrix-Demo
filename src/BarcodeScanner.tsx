@@ -19,7 +19,7 @@ const BarcodeScanner: React.FC = () => {
     const match = url.match(regex);
     return match ? match[0] : null;
   };
-
+// Error handling part of the code
   return (
     <div>
       <h1>Barcode Scanner</h1>

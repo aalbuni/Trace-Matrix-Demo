@@ -6,7 +6,7 @@ const BarcodeScanner: React.FC = () => {
 
   const handleScan = (data: string) => {
     setScannedValue(data);
-    console.log('Scanned value:', data);
+    console.log('Scanned value:', data);.
   };
 
   const handleError = (err: any) => {
